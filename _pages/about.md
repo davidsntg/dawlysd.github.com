@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>My name is David Santiago and I am 29 years old. I'm spend my life juggling between iTerm and Azure portal. I am passionate about infrastructure and automation.</p>
+<p>My name is David Santiago and I am 29 years old. I spend my life juggling between iTerm and Azure portal. I am passionate about infrastructure and automation.</p>
 
 <p>I live in the countryside near Clermont-Ferrand, in France. I work for Microsoft as a Customer Engineer, my role is to support our customers to take advantage of Azure.</p>
 
