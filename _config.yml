@@ -1,0 +1,65 @@
+# Site
+name: "David Santiago"
+title: "David Santiago"
+description: "Description."
+logo: 'assets/images/davidsantiago.png'
+favicon: 'assets/images/davidsantiago.png'
+baseurl: ""
+url: ""
+google_analytics: null # 'UA-46278016-1'
+disqus: 'davidsantiago'
+mailchimp-list: null
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  davidsantiago:
+    name: David Santiago
+    display_name: David Santiago
+    avatar: 'assets/images/davidsantiago.png'
+    gravatar: null
+    email: david.santiago.pro@gmail.com
+    web: https://davidsantiago.fr
+    twitter: https://twitter.com/dawlysd
+    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: null
+adsense-data-ad-slot: null
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
