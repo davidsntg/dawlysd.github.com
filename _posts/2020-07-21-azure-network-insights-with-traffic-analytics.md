@@ -4,7 +4,6 @@ title:  "Azure Network Insights with Traffic Analytics"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/network-insights-5.png
-featured: true
 ---
 
 > This post was originally published on [Michelin BlogIT](https://blogit.michelin.io/azure-network-insights-with-traffic-analyticsazure-network-insights-with-traffic-analytics/).
