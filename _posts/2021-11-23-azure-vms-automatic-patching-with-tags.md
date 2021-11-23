@@ -23,16 +23,16 @@ To enable patching with Azure Updatement Management, we usually:
 4. Install [Log Analytics agent](https://docs.microsoft.com/en-us/azure/azure-monitor/agents/log-analytics-agent) on VMs and specify the Workspace ID
 5. [Schedule Update Deployment for VMs or Groups](https://docs.microsoft.com/en-us/azure/automation/update-management/deploy-updates)
 
-Management at scale through the Portal can be complicated: who should and must perform operations on the automation account ? How to prevent a user from creating/updating a schedule update deployment of a machine that does not belong to him/her ? ... This is not really manageable at scale.
+Management at scale through the Portal can be complicated: who should and must perform operations on the automation account? How to prevent a user from creating/updating a schedule update deployment of a machine that does not belong to him/her? ... This is not really manageable at scale.
 
-The model which is presented bellow simplifies all this management. Rather than "Schedule Update Deployment" in the Update Management tab of the Automation Account, we will **simply tag the machines we want to patch with a specific syntax**.
+The bellow model simplifies all this management. Rather than "Schedule Update Deployment" in the Update Management tab of the Automation Account, we will **simply tag the machines we want to patch with a specific syntax**.
 
 Automation Account Runbooks will take care of the update deployment schedule configuration 🔥. Let's see how it works overall.
 
 
 # Big Picture
 
-For the rest of the article, I assume the following architecture:
+Assuming the following architecture:
 
 ![BigPicture]({{ site.baseurl }}/assets/images/update-management-big-picture.png)
 
@@ -117,7 +117,8 @@ Below Azure Resource cannot be patched by Azure Update Management:
 
 Provided runbooks could be improved to enhance modularity. The issue is that there is as much patching policy as company and providing scripts that fit all use cases is impossible.
 
-Additional features can be developed (feel free to **contribute** on [GitHub repo](https://github.com/dawlysd/azure-update-management-with-tags) as creating ITSM ticket before patching and update the ticket with updated packages after the patching.
+Additional features can be developed (feel free to **contribute** on [GitHub repo](https://github.com/dawlysd/azure-update-management-with-tags)) as creating ITSM ticket before patching and update the ticket with updated packages after the patching.
 
 Azure Tags are powerfull, especially for automation. We could imagine doing the same thing for many day-to-day operations as backup, monitoring and so on.
 
+Enjoy and give us feedbacks 😁!
