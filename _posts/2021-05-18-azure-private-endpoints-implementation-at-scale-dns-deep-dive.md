@@ -4,7 +4,6 @@ title:  "Azure Private Endpoints implementation at scale // DNS deep-dive"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/azure-pe-dns-deepdive-5.png
-featured: true
 ---
 
 > This post was originally published on [Michelin BlogIT](https://blogit.michelin.io/azure-private-endpoints-implementation-at-scale-dns-deep-dive/).
