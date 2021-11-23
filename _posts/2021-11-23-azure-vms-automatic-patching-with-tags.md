@@ -15,7 +15,7 @@ This article has been co-written with my friend [Vincent Misson](https://blog.cl
 
 [Azure Update Management](https://docs.microsoft.com/en-us/azure/automation/update-management/overview) manages operating system updates for Windows and Linux Azure VMs or VMs in on-premise environments and even in other cloud environments.
 
-To enable patching with Azure Updatement Management, we usually:
+To enable patching with Azure Update Management, we usually:
 
 1. Create a Log Analytics Workspace
 2. Create an Automation account and link it to the Log Analytics Workspace
