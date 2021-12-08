@@ -4,7 +4,6 @@ title:  "Azure API Management & Network"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/azure-apim-scenario2.png
-featured: true
 ---
 
 The intent of this article is to deep dive on Azure API Management network integration possibilities with two scenarios described below.
