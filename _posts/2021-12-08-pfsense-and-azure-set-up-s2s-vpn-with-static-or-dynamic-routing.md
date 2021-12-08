@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "pfSense & Azure - Set up S2S VPN with both static and dynamic routing"
+title:  "pfSense & Azure - Set up S2S VPN with static or dynamic routing"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/pfsense-azure-s2s-00.png
 featured: true
 ---
 
-In this article, I will describe how to configure pfSense to create a S2S VPN to Azure with both static and dynamic routing.
+In this article, I will describe how to configure pfSense to create a S2S VPN to Azure with static or dynamic routing.
 
 # pfSense
 [pfSense](https://www.pfsense.org/) is a free firewall/router computer software distribution based on FreeBSD. The open source pfSense Community Edition (CE) and pfSense Plus is installed on a physical computer or a virtual machine to make a dedicated firewall/router for a network. It can be configured and upgraded through a web-based interface, and requires no knowledge of the underlying FreeBSD system to manage.
