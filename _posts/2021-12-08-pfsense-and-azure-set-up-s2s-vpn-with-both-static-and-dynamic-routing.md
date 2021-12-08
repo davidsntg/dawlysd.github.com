@@ -56,9 +56,6 @@ In a resource group, create :
   * Shared key (PSK): david123
   * IKE protocol: IKEv2
 
-You can do it directly using Azure Portal or using this GitHub repo containing Bicep scripts.
-TODO: add GitHub repo with Bicep scripts
-
 Let's now configure pfSense.
 
 ## pfSense configuration
