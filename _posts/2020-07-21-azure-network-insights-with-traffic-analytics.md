@@ -6,7 +6,7 @@ categories: [ azure, network ]
 image: assets/images/network-insights-5.png
 ---
 
-> This post was originally published on [Michelin BlogIT](https://blogit.michelin.io/azure-network-insights-with-traffic-analyticsazure-network-insights-with-traffic-analytics/).
+> This post was originally published on [Michelin BlogIT](https://blogit.michelin.io/azure-network-insights-with-traffic-analytics/).
 
 Within Michelin, we have connections from several geographic points to Azure regions, through Express Route circuits. An important requirement from our Network and Security teams is the capability to inspect and analyze the network traffic between all our assets. We already had visibility of network traffic between "on-premise" and Azure thanks to our packet capture appliances on these connection points and we had a lack on our Azure environments.
 
