@@ -4,7 +4,6 @@ title:  "pfSense & Azure - Set up S2S VPN with static or dynamic routing"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/pfsense-azure-s2s-00.png
-featured: true
 ---
 
 In this article, I will describe how to configure pfSense to create a S2S VPN to Azure with static or dynamic routing.
