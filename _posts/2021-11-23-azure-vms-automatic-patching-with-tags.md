@@ -4,7 +4,6 @@ title:  "Azure VMs - Automatic patching with tags!"
 author: davidsantiago
 categories: [ azure, network ]
 image: assets/images/update-management-big-picture.png
-featured: true
 ---
 
 The intent of this article is to explain how to daily or weekly patch Azure Virtual Machines with tags. To achieve that, I will rely on Azure Update Management and several Powershell Runbooks.
