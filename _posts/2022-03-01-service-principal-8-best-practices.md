@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Azure Service Principal - 7 Best Practices"
+title:  "Azure Service Principal - 8 Best Practices"
 author: davidsantiago
 categories: [ azure, network, monitoring ]
 image: assets/images/azure-service-principal-2.png
@@ -14,9 +14,9 @@ Azure Service Principal (SP) management at scale can be time consuming for Cloud
 **Definition from [Official documentation](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?toc=%2Fazure%2Fazure-resource-manager%2Ftoc.json&view=azure-cli-latest):**
 > An Azure SP is a security identity used by user-created applications, services, and automation tools to access specific Azure resources. Think of it as a 'user identity' (username and password or certificate) with a specific role, and tightly controlled permissions. It only needs to be able to do specific things, unlike a general user identity. It improves security if you grant it only the minimum permissions level needed to perform its management tasks.
 
-Most of the time, SPs are used by IT teams to automate Azure/Azure AD tasks in CI/CD pipelines.
+Most of the time, SPs are used by IT teams to automate Azure/Azure AD tasks in CI/CD pipelines and to [authenticate users](https://docs.microsoft.com/en-us/azure/developer/javascript/core/nodejs-sdk-azure-authenticate?tabs=azure-sdk-for-javascript).
 
-# Best Practice
+# 8 Best Practices
 
 ## \#1 - Allow users to register SP by default
 
@@ -24,7 +24,7 @@ Any person or team that needs to automate something in Azure **should be able to
 
 *"On their own"* means be able to execute something like:
 ```bash
-$ az ad sp create-for-rbac -n "AZ_SP_MYENTITY_MYAPLLICATION" --skip-assignement
+$ az ad sp create-for-rbac -n "AZ_SP_MYENTITY_MYAPPLICATION" --skip-assignement
 ```
 
 To provide this self-service SP creation capability, *"Users can register applications"* must be set to *"Yes"* on User settings of Azure Active Directory:
@@ -57,7 +57,7 @@ In terms of security policy, monitor (and prohibit!) never-expire secrets is man
 
 **Secrets must be generated for a short period (3-6months) and renewed periodically**.
 
-To simplify this renews for operational teams, here is an interesting approach for a given SP:
+Delivery teams (and not CCOE) can simplify the secret renewal operation by adopting below process for a given SP:
 * Store the SP credential in a Key Vault and define in Key Vault secret expiration date
 * All automation that use the SP must fetch the secret from the Key Vault
 * Create a small bot that will periodically regenerate SP secrets and update Key Vault SP secret based on expiration date
@@ -92,6 +92,16 @@ SPs lifecycle management is often overlooked. When a project in Azure is decommi
 
 A good practice here is to monitor **[SP sign-in logs](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/concept-all-sign-ins)** and define processes to contact owners of an SP that has not logged in for 1 year.
 
+# \#8 - 1 SP == 1 perimeter
+
+In general, it is necessary to **limit the perimeters of possible actions for a SP**. Avoid having SPs that can do everything, both in Azure and Azure AD.
+
+**Example of perimeters**:
+* Delivery Team - Subscription PROD App A - Service Principal `AZ_SP_ENTITY_APP_PROD` will be Contributor to the subscription
+* CCOE Team - Azure AD - Service Principal `AZ_SP_CCOE_AAD_PROD` will have Read/Write permissions on Azure AD
+* etc...
+
+This tip is a general idea: it must be contextualized on each Azure environment with discussions between Delivery team, Security team and CCOE team to define a global policy on this topic.
 
 # Conclusion
 
@@ -102,4 +112,5 @@ I hope that these few hygiene rules will simplify this management, do not hesita
 ### Aknowledgment
 
 I would like to thank the people below for their advice and proofreading:
-* Jean-Pierre Dussourd
+* [Remy Sabile](https://www.linkedin.com/in/r-sabile/)
+* [Alexis Plantin](https://www.linkedin.com/in/alexis-plantin/)
