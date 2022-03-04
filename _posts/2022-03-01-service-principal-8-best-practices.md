@@ -109,6 +109,10 @@ Even if SPs can be seen as just robot accounts, managing them at scale for centr
 
 I hope that these few hygiene rules will simplify this management, do not hesitate to contact me if you have any questions or comments.
 
+### References
+
+* [Demystifying Service Principals – Managed Identities](https://devblogs.microsoft.com/devops/demystifying-service-principals-managed-identities/)
+
 ### Aknowledgment
 
 I would like to thank the people below for their advice and proofreading:
