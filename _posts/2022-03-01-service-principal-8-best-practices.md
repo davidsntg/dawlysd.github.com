@@ -114,3 +114,4 @@ I hope that these few hygiene rules will simplify this management, do not hesita
 I would like to thank the people below for their advice and proofreading:
 * [Remy Sabile](https://www.linkedin.com/in/r-sabile/)
 * [Alexis Plantin](https://www.linkedin.com/in/alexis-plantin/)
+* [Jean-Pierre Dussourd](https://www.linkedin.com/in/jpdussourd/)
