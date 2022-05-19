@@ -2,9 +2,8 @@
 layout: post
 title:  "Azure Service Principal - 8 Best Practices"
 author: davidsantiago
-categories: [ azure, network, monitoring ]
+categories: [ azure, ad, serviceprincipal ]
 image: assets/images/azure-service-principal-2.png
-featured: true
 ---
 
 Azure Service Principal (SP) management at scale can be time consuming for Cloud Center Of Excellence (CCOE) / Cloud Platforms. This article provides some tips & best practices to put in place.
