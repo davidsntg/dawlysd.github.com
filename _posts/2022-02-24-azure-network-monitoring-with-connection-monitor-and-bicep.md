@@ -4,7 +4,6 @@ title:  "Azure Network Monitoring with Connection Monitor & Bicep !"
 author: davidsantiago
 categories: [ azure, network, monitoring ]
 image: assets/images/network-monitor-5.png
-featured: true
 ---
 
 In this article, I present how to set up network monitoring with the [Connection Monitor](https://docs.microsoft.com/en-us/azure/network-watcher/connection-monitor-overview) tool (part of Azure Network Watcher) using [Azure Bicep](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep) 🚀
