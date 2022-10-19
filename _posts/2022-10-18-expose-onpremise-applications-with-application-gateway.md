@@ -17,6 +17,8 @@ The intent of this article is to explain how to achieve that, but also detail ho
 
   ![ag-lb-onprem]({{ site.baseurl }}/assets/images/ag-lb-onprem-1.png)
 
+The terraform code to provision above infrasture is available on my [GitHub](https://github.com/dawlysd/lab-ag-onpremiseapplications).
+
 **Description**:
 * Two on-premises sites (emulated) are establishing S2S VPN to Azure `hub-vnet`. 
 * `site1-vm` and `site2-vm` host an apache2 web server
