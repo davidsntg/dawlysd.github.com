@@ -9,7 +9,7 @@ featured: true
 ---
 
 Load balancing on-premise applications from Azure with Application Gateway is possible.
-The intent of this article is to explain how to achieve that, but also detail how to **share these on-premise applications to a partner using Azure, all privately**.
+The intent of this article is to explain how to achieve that, but also detail how to **share these on-premise applications to a partner using Azure Application Gateway + Private Link (*preview*), all privately**.
 
 # Load Balance on-premise applications from Azure
 
@@ -75,7 +75,7 @@ Let's use this preview feature to create a Private Endpoint in Fabrikam tenant t
   ![ag-lb-onprem]({{ site.baseurl }}/assets/images/ag-lb-onprem-11.png)
 
 It works 🔥🔥
- 
+
 
 ### References
 
