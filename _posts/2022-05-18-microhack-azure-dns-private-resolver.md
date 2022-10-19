@@ -4,7 +4,6 @@ title:  "MicroHack - Azure DNS Private Resolver"
 author: davidsantiago
 categories: [ azure, network, dns ]
 image: assets/images/dns-private-resolver.png
-featured: true
 ---
 
 With [Alexis Plantin](https://alexisplantin.fr/), we just released a [MicroHack](https://github.com/dawlysd/azure-dns-private-resolver-microhack) around [Azure DNS Private Resolver](https://docs.microsoft.com/en-us/azure/dns/dns-private-resolver-overview) (public preview).
