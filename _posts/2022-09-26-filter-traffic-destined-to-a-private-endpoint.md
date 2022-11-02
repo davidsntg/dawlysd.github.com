@@ -15,7 +15,7 @@ Long story short: **SNAT is almost mandatory** 😀, as explained in the [docume
 
 ## Reminders
 
-* Private Endpoint **only support TCP (not ICMP/UDP)**. [Doc](https://learn.microsoft.com/en-us/answers/questions/379875/private-endpoint-has-listening-restrictions.html).
+* Private Endpoint supports **TCP and UDP traffic only**. [Doc](https://learn.microsoft.com/en-us/answers/questions/379875/private-endpoint-has-listening-restrictions.html).
 * Private Endpoint **do not support NSG flow logs**. It means that Traffic Analysis do not work. [Doc](https://learn.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview).
 * Private endpoint **automatically creates a /32 route** propagated to the VNet it resides in and other peered VNets. [Details](https://msandbu.org/private-endpoints-snat-udr-and-azure-firewall/).
 
