@@ -3,7 +3,7 @@ layout: post
 title:  "Deploy umami on Azure Container Apps"
 author: davidsantiago
 categories: [ containers ]
-image: assets/images/umami.jpg
+image: assets/images/umami.png
 
 ---
 
