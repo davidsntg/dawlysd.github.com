@@ -8,7 +8,7 @@ image: assets/images/umami.png
 ---
 
 [umami](https://umami.is/) is an [open source](https://github.com/umami-software/umami), privacy-focused alternative to Google Analytics.
-This repo explains how to deploy it in Azure using [Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview) which is a new service that enables you to **run microservices and containerized applications on a serverless platform**.
+This article explains how to deploy it in Azure using [Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview) which is a new service that enables you to **run microservices and containerized applications on a serverless platform**.
 
   ![umami]({{ site.baseurl }}/assets/images/umami-2.png)
 
