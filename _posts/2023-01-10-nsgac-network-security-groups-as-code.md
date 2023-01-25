@@ -7,7 +7,7 @@ image: assets/images/nsgac.png
 
 ---
 
-[NSGaC](https://github.com/dawlysd/azure-nsgac) is an open source project that allows  to **manage Network Security Groups** (NSGs) rules for VNets in Azure, **as code**.
+[NSGaC](https://github.com/dawlysd/azure-nsgac) is an open source project based on Terracord and GitHub Actions that allows  to **manage Network Security Groups** (NSGs) rules for VNets in Azure, **as code**.
 
 NSGaC permits:
 * **Auditability**: know who created a rule, when and why
