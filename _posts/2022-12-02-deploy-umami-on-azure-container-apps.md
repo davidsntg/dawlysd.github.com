@@ -126,3 +126,6 @@ az containerapp create \
 * Login to umami with default credentials (login: admin ; password: umami)
 
   
+
+
+
