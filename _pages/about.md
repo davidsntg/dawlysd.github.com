@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hi !!! My name is David Santiago &amp; I spend my life juggling between iTerm and Azure portal. I am passionate about infrastructure, automation and network!!</p>
+<p>Hi !!! My name is David Santiago &amp; I am passionate about infrastructure, automation and network!!</p>
 
 <p>I live in the countryside near Clermont-Ferrand, in France. I work for Microsoft as a Cloud Solution Architect, my role is to support our customers to take advantage of Azure.</p>
 
