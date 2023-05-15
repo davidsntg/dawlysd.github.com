@@ -4,7 +4,6 @@ title:  "Filter traffic to Private Endpoints with Azure Firewall"
 author: davidsantiago
 categories: [ network, azurefirewall ]
 image: assets/images/inspect-pe-with-azfw-3.png
-featured: true
 
 ---
 
