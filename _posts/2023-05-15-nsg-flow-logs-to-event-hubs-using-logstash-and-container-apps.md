@@ -50,7 +50,7 @@ LOCATION="westeurope"
 az group create --location $LOCATION --name $RESOURCE_GROUP
 
 # ACR creation
-az acr create --resource-group $RESOURCE_GROUP --name $ACR_NAME --sku Basic --location $LOCATION
+az acr create --resource-group $RESOURCE_GROUP --name $ACR_NAME --sku Basic --location $LOCATION --admin-enabled true
 
 # ACR login
 az acr login --name $ACR_NAME
