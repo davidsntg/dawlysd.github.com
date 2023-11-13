@@ -4,8 +4,6 @@ title:  "Expose on-premise applications with Application Gateway, and share thos
 author: davidsantiago
 categories: [ network, applicationgateway ]
 image: assets/images/ag-lb-onprem-4.png
-featured: true
-
 ---
 
 Load balancing on-premise applications from Azure with Application Gateway is possible.
