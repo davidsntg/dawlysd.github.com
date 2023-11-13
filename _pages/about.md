@@ -8,10 +8,9 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hi !!! My name is David Santiago &amp; I am passionate about infrastructure, automation and network!!</p>
+<p>Hello! My name is David Santiago, and I have a deep passion for infrastructure, automation, and networking!</p>
 
-<p>I live in the countryside near Clermont-Ferrand, in France. I work for Microsoft as a Cloud Solution Architect, my role is to support our customers to take advantage of Azure.</p>
-
+<p>I am currently employed by Microsoft as a Cloud Solution Architect. In my role, I assist our clients in leveraging the benefits of Azure.</p>
 
 </div>
 
@@ -22,7 +21,7 @@ comments: true
 
 <p><a target="_blank" href="https://www.linkedin.com/in/davsantiago/"><i class="fab fa-linkedin"></i> David Santiago</a></p>
 <p><a target="_blank" href="https://twitter.com/DawlysD"><i class="fab fa-twitter"></i> dawlysd</a></p>
-
+<p><a target="_blank" href="https://github.com/dawlysd"><i class="fab fa-github"></i> dawlysd</a></p>
 </div>
 </div>
 </div>
