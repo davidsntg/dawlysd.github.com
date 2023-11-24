@@ -21,7 +21,7 @@ comments: true
 
 <p><a target="_blank" href="https://www.linkedin.com/in/davsantiago/"><i class="fab fa-linkedin"></i> David Santiago</a></p>
 <p><a target="_blank" href="https://twitter.com/DawlysD"><i class="fab fa-twitter"></i> dawlysd</a></p>
-<p><a target="_blank" href="https://github.com/dawlysd"><i class="fab fa-github"></i> dawlysd</a></p>
+<p><a target="_blank" href="https://github.com/davidsntg"><i class="fab fa-github"></i> davidsntg</a></p>
 </div>
 </div>
 </div>
